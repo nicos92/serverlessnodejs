@@ -2,13 +2,15 @@
     // Visit https://aka.ms/tsconfig to read more about this file
     "compilerOptions": {
         // File Layout
-        "rootDir": "./src",
+        "rootDir": "./netlify",
         "outDir": "./dist",
         // Environment Settings
         // See also https://aka.ms/tsconfig/module
         "module": "commonjs",
         "target": "esnext",
-        "types": [],
+        "types": [
+            "node"
+        ],
         // For nodejs:
         // "lib": ["esnext"],
         // "types": ["node"],
@@ -44,7 +46,7 @@
     },
     // IMPORTANTE: Incluir explícitamente los archivos
     "include": [
-        "src/**/*"
+        "netlify/**/*"
     ],
     "exclude": [
         "node_modules",

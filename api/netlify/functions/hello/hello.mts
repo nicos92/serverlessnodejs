@@ -1,4 +1,6 @@
 export default async () => {
+  console.log(`hola logs desde las variables de entorno`)
+
   const encoder = new TextEncoder();
   const formatter = new Intl.DateTimeFormat("en", { timeStyle: "medium" });
   const body = new ReadableStream({
