@@ -33,3 +33,6 @@ Thumbs.db
 *.swo
 *~
 .json
+
+# Local Netlify folder
+.netlify
